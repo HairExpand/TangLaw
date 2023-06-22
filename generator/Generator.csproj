@@ -10,11 +10,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="templates\content.html" />
     <None Remove="templates\index.html" />
     <None Remove="templates\template.html" />
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="templates\content.html" />
     <EmbeddedResource Include="templates\index.html" />
     <EmbeddedResource Include="templates\template.html" />
   </ItemGroup>

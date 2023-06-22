@@ -1,0 +1,21 @@
+h1{
+    text-align: center;
+}
+
+li{
+    list-style-type: none;
+}
+
+.law{
+    white-space: pre-line;
+    border: 1px dotted black;
+    border-radius: 16px;
+    padding: 10px 5px;
+    background-color: #eee;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.text p{
+    white-space: pre-line;
+}
