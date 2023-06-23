@@ -30,10 +30,10 @@ namespace Generator
         private static string GenerateCatalog()
         {
             var sb = new StringBuilder();
-            DeepGenerate(0, Global.InputRoot);
+            DeepGenerate(null, 0, Global.InputRoot);
             return sb.ToString();
 
-            void DeepGenerate(int pad, string directory)
+            void DeepGenerate(FileEntry? parent, int pad, string directory)
             {
                 sb.AppendLine(pad, "<ul>");
                 foreach (var file in Files.GetEntries(directory))
@@ -46,10 +46,10 @@ namespace Generator
                         }
                     }
 
-                    var name = file.Name;
-                    if (file.Number > 0)
+                    var name = file.GetTitle(pad);
+                    if (parent != null && parent.Value.Name == "附录")
                     {
-                        name = $"{Strings.GetOrderString(pad, file.Number, file.SubNumber)} {file.Name}";
+                        name = file.Name;
                     }
                     if (Directory.Exists(file.Path))
                     {
@@ -62,7 +62,7 @@ namespace Generator
                         {
                             sb.AppendLine(pad + 1, $"<li>{name}</li>");
                         }
-                        DeepGenerate(pad + 1, file.Path);
+                        DeepGenerate(file, pad + 1, file.Path);
                     }
                     else
                     {

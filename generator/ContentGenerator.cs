@@ -29,17 +29,17 @@ namespace Generator
                     var output = Path.Combine(Global.OutputRoot, name);
                     var content = GenerateContent(pad, file);
 
-                    var title = file.Name;
-                    if (file.Number > 0)
+                    var title = file.GetTitle(pad);
+                    if (parent != null && parent.Value.Name == "附录")
                     {
-                        title = $"{Strings.GetOrderString(pad, file.Number, file.SubNumber)} {file.Name}";
+                        title = file.Name;
                     }
                     rootTempalte.Write(output, title, contentTemplate.Format(title, content));
                     Global.ContentsMap.Add(file.Path, name);
                 }
                 else
                 {
-                    DeepCreateContent(parent, pad+1, file.Path);
+                    DeepCreateContent(file, pad+1, file.Path);
                 }
             }
         }
