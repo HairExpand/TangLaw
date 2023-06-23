@@ -1,0 +1,1 @@
+generator\bin\Generator.exe src docs\output

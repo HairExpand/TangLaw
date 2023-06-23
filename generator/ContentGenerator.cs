@@ -55,28 +55,57 @@ namespace Generator
             doc.LoadXml(content);
 
             var root = doc.DocumentElement!;
-            foreach (XmlNode node in root.SelectNodes("law")!)
+
+            #region law
+            foreach (XmlNode node in root.SelectNodes("//law")!)
             {
                 node.InnerXml = node.InnerXml.Trim();
                 var div = doc.CreateElement("div");
                 div.SetAttribute("class", "law");
-                node.ReplaceSelf(div);
+                node.ReplaceSelfElement(div);
             }
-            foreach (XmlNode node in root.SelectNodes("text")!)
-            {
-                var tokens = node.InnerText.Split("\r\n\r\n");
-                node.InnerText = "";
-                foreach (var token in tokens)
-                {
-                    var p = doc.CreateElement("p");
-                    p.InnerText = token.Trim();
-                    node.AppendChild(p);
-                }
+            #endregion
 
+            #region text
+            foreach (XmlNode node in root.SelectNodes("//text")!)
+            {
                 var div = doc.CreateElement("div");
+                foreach (XmlNode child in node.ChildNodes)
+                {
+                    if (child.NodeType == XmlNodeType.Text)
+                    {
+                        var tokens = child.InnerText.Split("\r\n\r\n");
+                        foreach (var token in tokens)
+                        {
+                            if (token.Length == 0)
+                            {
+                                continue;
+                            }
+                            var p = doc.CreateElement("p");
+                            p.InnerText = token.Trim();
+                            div.AppendChild(p);
+                        }
+
+                    }
+                    else
+                    {
+                        div.AppendChild(child.Clone());
+                    }
+                }
                 div.SetAttribute("class", "text");
                 node.ReplaceSelf(div);
             }
+            #endregion
+
+            #region table
+            foreach (XmlElement node in root.SelectNodes("//table")!)
+            {
+                var clazz = node.GetAttribute("class");
+                clazz += " table table-bordered";
+                node.SetAttribute("class", clazz);
+            }
+            #endregion
+
             return root.InnerXml;
         }
     }

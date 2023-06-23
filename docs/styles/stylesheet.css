@@ -11,6 +11,12 @@ a:hover{
     text-decoration: none;
 }
 
+table.center,
+table.center th,
+table.center td{
+    text-align: center;
+}
+
 .law{
     white-space: pre-line;
     border: 1px dotted black;
