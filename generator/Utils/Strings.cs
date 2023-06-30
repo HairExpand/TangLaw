@@ -20,7 +20,7 @@ namespace Generator.Utils
 
         private static string OrderSuffix = "章节条";
 
-        public static string GetOrderString(int pad, int value, int sub)
+        public static string GetOrderString1(int pad, int value, int sub)
         {
             var s = $"第{GetNumberString(value)}{OrderSuffix[pad]}";
             if (sub > 0)
@@ -28,6 +28,18 @@ namespace Generator.Utils
                 s += $"之{GetNumberString(sub)}";
             }
             return s;
+        }
+
+        public static string GetOrderString2(int pad, int value, int sub)
+        {
+            if (pad == 0)
+            {
+                return "（" + GetNumberString(value) + "）";
+            }
+            else
+            {
+                return $"{value}.";
+            }
         }
 
         private static string Numbers = "零一二三四五六七八九十";

@@ -14,10 +14,11 @@ namespace Generator
 
         public static void CreateContents()
         {
-            DeepCreateContent(null, 0, Global.InputRoot);
+            DeepCreateContent(0, Global.InputRoot1, true);
+            DeepCreateContent(0, Global.InputRoot2, false);
         }
 
-        private static void DeepCreateContent(FileEntry? parent, int pad, string directory)
+        private static void DeepCreateContent(int pad, string directory, bool main)
         {
             var rootTempalte = new Template("template.html");
             var contentTemplate = new Template("content.html");
@@ -29,17 +30,13 @@ namespace Generator
                     var output = Path.Combine(Global.OutputRoot, name);
                     var content = GenerateContent(pad, file);
 
-                    var title = file.GetTitle(pad);
-                    if (parent != null && parent.Value.Name == "附录")
-                    {
-                        title = file.Name;
-                    }
+                    var title = file.GetTitle(main, pad);
                     rootTempalte.Write(output, title, contentTemplate.Format(title, content));
                     Global.ContentsMap.Add(file.Path, name);
                 }
                 else
                 {
-                    DeepCreateContent(file, pad+1, file.Path);
+                    DeepCreateContent(pad+1, file.Path, main);
                 }
             }
         }

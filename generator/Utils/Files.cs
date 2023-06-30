@@ -54,11 +54,18 @@ namespace Generator.Utils
         public string Name;
         public string Path;
 
-        public string GetTitle(int pad)
+        public string GetTitle(bool main, int pad)
         {
-            if (Number > 0 && Number < 10000)
+            if (main)
             {
-                return $"{Strings.GetOrderString(pad, Number, SubNumber)} {Name}";
+                if (Number > 0)
+                {
+                    return $"{Strings.GetOrderString1(pad, Number, SubNumber)} {Name}";
+                }
+            }
+            else
+            {
+                return $"{Name}";
             }
             return Name;
         }

@@ -11,7 +11,6 @@ namespace Generator
     internal static class CatalogGenerator
     {
 
-
         public static void CreateCatalog()
         {
             var template = new Template("template.html");
@@ -23,17 +22,18 @@ namespace Generator
         private static string GenerateIndex()
         {
             var template = new Template("index.html");
-            var catalog = GenerateCatalog();
-            return template.Format(null, catalog);
+            var catalog1 = GenerateCatalog(true);
+            var catalog2 = GenerateCatalog(false);
+            return template.Format(catalog1, catalog2);
         }
 
-        private static string GenerateCatalog()
+        private static string GenerateCatalog(bool main)
         {
             var sb = new StringBuilder();
-            DeepGenerate(null, 0, Global.InputRoot);
+            DeepGenerate(0, main ? Global.InputRoot1 : Global.InputRoot2);
             return sb.ToString();
 
-            void DeepGenerate(FileEntry? parent, int pad, string directory)
+            void DeepGenerate(int pad, string directory)
             {
                 sb.AppendLine(pad, "<ul>");
                 foreach (var file in Files.GetEntries(directory))
@@ -46,11 +46,7 @@ namespace Generator
                         }
                     }
 
-                    var name = file.GetTitle(pad);
-                    if (parent != null && parent.Value.Name == "附录")
-                    {
-                        name = file.Name;
-                    }
+                    var name = file.GetTitle(main,pad);
                     if (Directory.Exists(file.Path))
                     {
                         var self = Directory.GetFiles(file.Path).FirstOrDefault(f => Path.GetFileName(f).StartsWith("0 "));
@@ -62,7 +58,7 @@ namespace Generator
                         {
                             sb.AppendLine(pad + 1, $"<li>{name}</li>");
                         }
-                        DeepGenerate(file, pad + 1, file.Path);
+                        DeepGenerate(pad + 1, file.Path);
                     }
                     else
                     {
