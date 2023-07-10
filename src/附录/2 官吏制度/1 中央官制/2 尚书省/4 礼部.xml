@@ -1,0 +1,250 @@
+<doc>
+
+<text>
+
+<h2>礼部司</h2>
+
+<table>
+	<caption>职事官</caption>
+	<thead>
+		<tr>
+			<th>官职</th>
+			<th>编制</th>
+			<th>品阶</th>
+			<th>职责</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>礼部尚书</td>
+			<td>一人</td>
+			<td></td>
+			<td rowspan="2"></td>
+		</tr>
+		<tr>
+			<td>礼部侍郎</td>
+			<td>一人</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>礼部郎中</td>
+			<td>一人</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>礼部员外郎</td>
+			<td>一人</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>礼部主事</td>
+			<td>二人</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<caption>流外官</caption>
+	<thead>
+		<tr>
+			<th>官职</th>
+			<th>编制</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>礼部令史</td>
+			<td>五人</td>
+		</tr>
+		<tr>
+			<td>礼部书令史</td>
+			<td>十人</td>
+		</tr>
+		<tr>
+			<td>礼部亭长</td>
+			<td>六人</td>
+		</tr>
+		<tr>
+			<td>礼部掌固</td>
+			<td>八人</td>
+		</tr>
+	</tbody>
+</table>
+
+<h5>礼部尚书</h5>
+
+<h2>祠部司</h2>
+
+<table>
+	<caption>职事官</caption>
+	<thead>
+		<tr>
+			<th>官职</th>
+			<th>编制</th>
+			<th>品阶</th>
+			<th>职责</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>祠部郎中</td>
+			<td>一人</td>
+			<td></td>
+			<td rowspan="2"></td>
+		</tr>
+		<tr>
+			<td>祠部员外郎</td>
+			<td>一人</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>祠部主事</td>
+			<td>二人</td>
+			<td></td>
+			<td>-</td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<caption>流外官</caption>
+	<thead>
+		<tr>
+			<th>官职</th>
+			<th>编制</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>祠部令史</td>
+			<td>六人</td>
+		</tr>
+		<tr>
+			<td>祠部书令史</td>
+			<td>十三人</td>
+		</tr>
+		<tr>
+			<td>祠部掌固</td>
+			<td>四人</td>
+		</tr>
+	</tbody>
+</table>
+
+<h2>膳部司</h2>
+
+<table>
+	<caption>职事官</caption>
+	<thead>
+		<tr>
+			<th>官职</th>
+			<th>编制</th>
+			<th>品阶</th>
+			<th>职责</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>膳部郎中</td>
+			<td>一人</td>
+			<td></td>
+			<td rowspan="2"></td>
+		</tr>
+		<tr>
+			<td>膳部员外郎</td>
+			<td>一人</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>膳部主事</td>
+			<td>二人</td>
+			<td></td>
+			<td>-</td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<caption>流外官</caption>
+	<thead>
+		<tr>
+			<th>官职</th>
+			<th>编制</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>膳部令史</td>
+			<td>四人</td>
+		</tr>
+		<tr>
+			<td>膳部书令史</td>
+			<td>九人</td>
+		</tr>
+		<tr>
+			<td>膳部掌固</td>
+			<td>四人</td>
+		</tr>
+	</tbody>
+</table>
+
+<h2>主客司</h2>
+
+<table>
+	<caption>职事官</caption>
+	<thead>
+		<tr>
+			<th>官职</th>
+			<th>编制</th>
+			<th>品阶</th>
+			<th>职责</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>主客郎中</td>
+			<td>一人</td>
+			<td></td>
+			<td rowspan="2"></td>
+		</tr>
+		<tr>
+			<td>主客员外郎</td>
+			<td>一人</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>主客主事</td>
+			<td>二人</td>
+			<td></td>
+			<td>-</td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<caption>流外官</caption>
+	<thead>
+		<tr>
+			<th>官职</th>
+			<th>编制</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>主客令史</td>
+			<td>四人</td>
+		</tr>
+		<tr>
+			<td>主客书令史</td>
+			<td>九人</td>
+		</tr>
+		<tr>
+			<td>主客掌固</td>
+			<td>四人</td>
+		</tr>
+	</tbody>
+</table>
+
+</text>
+
+</doc>
