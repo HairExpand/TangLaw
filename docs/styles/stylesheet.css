@@ -9,7 +9,12 @@ h2{
     color: rgb(255, 102, 0);
 }
 
+h4:before{
+	content: "•";
+}
+
 h5{
+	content: "·";
     font-weight: bold;
 }
 
@@ -50,4 +55,10 @@ a:hover{
 
 .text p{
     white-space: pre-line;
+}
+
+.vertical-mode{
+	writing-mode: vertical-rl;
+	vertical-align: middle !important;
+	text-align: center;
 }

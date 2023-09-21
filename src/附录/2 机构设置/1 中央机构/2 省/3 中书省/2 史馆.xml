@@ -1,0 +1,55 @@
+<doc>
+
+<text>
+
+<table>
+	<caption>职事官</caption>
+	<thead>
+		<tr>
+			<th>官职</th>
+			<th>编制</th>
+			<th>品阶</th>
+			<th>职责</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>史官</td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<caption>流外官</caption>
+	<thead>
+		<tr>
+			<th>官职</th>
+			<th>编制</th>
+			<th>职责</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>史馆亭长</td>
+			<td>二人</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td>史馆掌固</td>
+			<td>六人</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td>史馆熟纸匠</td>
+			<td>六人</td>
+			<td>-</td>
+		</tr>
+	</tbody>
+</table>
+
+</text>
+
+</doc>
