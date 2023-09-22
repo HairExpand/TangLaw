@@ -34,13 +34,13 @@
 			<td></td>
 		</tr>
 		<tr>
-			<td>中书主书</td>
+			<td>主书</td>
 			<td>四人</td>
 			<td></td>
 			<td></td>
 		</tr>
 		<tr>
-			<td>中书主事</td>
+			<td>主事</td>
 			<td>四人</td>
 			<td></td>
 			<td></td>
@@ -59,27 +59,27 @@
 	</thead>
 	<tbody>
 		<tr>
-			<td>中书令史</td>
+			<td>令史</td>
 			<td>二十五人</td>
 			<td>-</td>
 		</tr>
 		<tr>
-			<td>中书书令史</td>
+			<td>书令史</td>
 			<td>五十</td>
 			<td>-</td>
 		</tr>
 		<tr>
-			<td>中书传制</td>
+			<td>传制</td>
 			<td>十人</td>
 			<td>-</td>
 		</tr>
 		<tr>
-			<td>中书亭长</td>
+			<td>亭长</td>
 			<td>十八人</td>
 			<td>-</td>
 		</tr>
 		<tr>
-			<td>中书掌固</td>
+			<td>掌固</td>
 			<td>二十四人</td>
 			<td>-</td>
 		</tr>
@@ -89,12 +89,12 @@
 			<td>-</td>
 		</tr>
 		<tr>
-			<td>中书掌函</td>
+			<td>掌函</td>
 			<td>二十人</td>
 			<td>-</td>
 		</tr>
 		<tr>
-			<td>中书掌案</td>
+			<td>掌案</td>
 			<td>二十人</td>
 			<td>-</td>
 		</tr>
