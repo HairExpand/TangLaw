@@ -1,0 +1,146 @@
+<doc>
+
+<text>
+
+<table>
+	<caption>职事官</caption>
+	<thead>
+		<tr>
+			<th>官职</th>
+			<th>编制</th>
+			<th>品阶</th>
+			<th>职责</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>令</td>
+			<td>二人</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>丞</td>
+			<td>二人</td>
+			<td></td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<caption>流外官</caption>
+	<thead>
+		<tr>
+			<th>官职</th>
+			<th>编制</th>
+			<th>职责</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>令史</td>
+			<td>二人</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td>书令史</td>
+			<td>四人</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td>楷书手</td>
+			<td>二人</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td>亭长</td>
+			<td>四人</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td>掌固</td>
+			<td>四人</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td>司历</td>
+			<td>二人</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td>保章正</td>
+			<td>一人</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td>历生</td>
+			<td>三十六人</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td>装书历生</td>
+			<td>五人</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td>监候</td>
+			<td>五人</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td>天文观生</td>
+			<td>九十人</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td>灵台郎</td>
+			<td>二人</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td>天文生</td>
+			<td>六十人</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td>挈壶正</td>
+			<td>二人</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td>司辰</td>
+			<td>十九人</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td>漏刻典事</td>
+			<td>十六人</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td>漏刻博士</td>
+			<td>九人</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td>漏刻生</td>
+			<td>三百六十人</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td>典钟</td>
+			<td>二百八十人</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td>典鼓</td>
+			<td>一百六十人</td>
+			<td>-</td>
+		</tr>
+	</tbody>
+</table>
+
+</text>
+
+</doc>

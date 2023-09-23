@@ -1,0 +1,121 @@
+<doc>
+
+<text>
+
+<table>
+	<caption>职事官</caption>
+	<thead>
+		<tr>
+			<th>官职</th>
+			<th>编制</th>
+			<th>品阶</th>
+			<th>职责</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>监</td>
+			<td>一人</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>少监</td>
+			<td>二人</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>丞</td>
+			<td>一人</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>秘书郎</td>
+			<td>四人</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>校书郎</td>
+			<td>八人</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>正字</td>
+			<td>四人</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>主事</td>
+			<td>一人</td>
+			<td></td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<caption>流外官</caption>
+	<thead>
+		<tr>
+			<th>官职</th>
+			<th>编制</th>
+			<th>职责</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>令史</td>
+			<td>四人</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td>书令史</td>
+			<td>九人</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td>典书</td>
+			<td>八人</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td>楷书手</td>
+			<td>八十人</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td>亭长</td>
+			<td>六人</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td>掌固</td>
+			<td>八人</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td>熟纸匠</td>
+			<td>十人</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td>装璜匠</td>
+			<td>十人</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td>笔匠</td>
+			<td>六人</td>
+			<td>-</td>
+		</tr>
+	</tbody>
+</table>
+
+</text>
+
+</doc>
