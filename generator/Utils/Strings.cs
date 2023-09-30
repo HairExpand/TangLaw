@@ -18,7 +18,7 @@ namespace Generator.Utils
             return sb.AppendLine(text);
         }
 
-        private static string OrderSuffix = "章节条";
+        private static string OrderSuffix = "篇章条";
 
         public static string GetOrderString1(int pad, int value, int sub)
         {
