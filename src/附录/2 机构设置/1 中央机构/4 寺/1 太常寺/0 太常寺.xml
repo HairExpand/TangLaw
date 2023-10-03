@@ -2,7 +2,7 @@
 
 <text>
 
-<h2>太常寺</h2>
+<h2>太常寺卿</h2>
 
 <table>
 	<caption>职事官</caption>
@@ -44,30 +44,6 @@
 			<td>从九品上</td>
 			<td>掌受事发辰</td>
 		</tr>
-		<tr>
-			<td>博士</td>
-			<td>四人</td>
-			<td>从七品上</td>
-			<td>掌辨五礼之仪式，奉先王之法制，适变随时而损益焉</td>
-		</tr>
-		<tr>
-			<td>太祝</td>
-			<td>三人</td>
-			<td>正九品上</td>
-			<td>掌出纳神主于太庙之九室，而奉享荐裕袷之仪</td>
-		</tr>
-		<tr>
-			<td>奉礼郎</td>
-			<td>二人</td>
-			<td>从九品上</td>
-			<td>掌设君臣之版位，以奉朝会、祭祀之礼</td>
-		</tr>
-		<tr>
-			<td>协律郎</td>
-			<td>二人</td>
-			<td>正八品上</td>
-			<td>掌和六律、六吕，以辨四时之气，八风五音之节</td>
-		</tr>
 	</tbody>
 </table>
 
@@ -81,28 +57,12 @@
 	</thead>
 	<tbody>
 		<tr>
-			<td>谒者</td>
-			<td>十人</td>
-		</tr>
-		<tr>
-			<td>赞引</td>
-			<td>二十人</td>
-		</tr>
-		<tr>
-			<td>祝史</td>
-			<td>六人</td>
-		</tr>
-		<tr>
 			<td>府</td>
 			<td>十二人</td>
 		</tr>
 		<tr>
 			<td>史</td>
 			<td>二十三人</td>
-		</tr>
-		<tr>
-			<td>赞者</td>
-			<td>十六人</td>
 		</tr>
 		<tr>
 			<td>亭长</td>
@@ -112,10 +72,16 @@
 			<td>掌固</td>
 			<td>十二人</td>
 		</tr>
+		<tr>
+			<td>太庙斋郎</td>
+			<td>京都各一百三十人</td>
+		</tr>
+		<tr>
+			<td>太庙门仆</td>
+			<td>京都各三十二人</td>
+		</tr>
 	</tbody>
 </table>
-
-太庙斋郎京都各一百三十人　太庙门仆京都各三十二人
 
 <h5>卿</h5>
 
@@ -169,6 +135,48 @@
 
 录事掌受事发辰。
 
+<h2>太常博士</h2>
+
+<table>
+	<caption>职事官</caption>
+	<thead>
+		<tr>
+			<th>官职</th>
+			<th>编制</th>
+			<th>品阶</th>
+			<th>职责</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>博士</td>
+			<td>四人</td>
+			<td>从七品上</td>
+			<td>掌辨五礼之仪式，奉先王之法制，适变随时而损益焉</td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<caption>流外官</caption>
+	<thead>
+		<tr>
+			<th>官职</th>
+			<th>编制</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>谒者</td>
+			<td>十人</td>
+		</tr>
+		<tr>
+			<td>赞引</td>
+			<td>二十人</td>
+		</tr>
+	</tbody>
+</table>
+
 <h5>博士</h5>
 
 太常博士四人，从七品上。
@@ -194,6 +202,60 @@
 赞引二十人。
 
 隋太常寺有赞引六十人，贞观中省置二十人。
+
+<h2>太祝</h2>
+
+<table>
+	<caption>职事官</caption>
+	<thead>
+		<tr>
+			<th>官职</th>
+			<th>编制</th>
+			<th>品阶</th>
+			<th>职责</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>太祝</td>
+			<td>三人</td>
+			<td>正九品上</td>
+			<td>掌出纳神主于太庙之九室，而奉享荐裕袷之仪</td>
+		</tr>
+		<tr>
+			<td>奉礼郎</td>
+			<td>二人</td>
+			<td>从九品上</td>
+			<td>掌设君臣之版位，以奉朝会、祭祀之礼</td>
+		</tr>
+		<tr>
+			<td>协律郎</td>
+			<td>二人</td>
+			<td>正八品上</td>
+			<td>掌和六律、六吕，以辨四时之气，八风五音之节</td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<caption>流外官</caption>
+	<thead>
+		<tr>
+			<th>官职</th>
+			<th>编制</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>祝史</td>
+			<td>六人</td>
+		</tr>
+		<tr>
+			<td>赞者</td>
+			<td>十六人</td>
+		</tr>
+	</tbody>
+</table>
 
 <h5>太祝</h5>
 
