@@ -5,15 +5,22 @@ h1{
 }
 
 h2{
+	font-weight: bold;
     font-size: 28px;
     color: rgb(255, 102, 0);
 }
 
+h3, h4{
+	font-weight: bold;
+}
+
 h4:before{
+	font-weight: bold;
 	content: "•";
 }
 
 h5{
+	font-style: bold;
 	content: "·";
     font-weight: bold;
 }
