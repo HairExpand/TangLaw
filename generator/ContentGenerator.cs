@@ -44,10 +44,7 @@ namespace Generator
         private static string GenerateContent(int pad, FileEntry file)
         {
             var content = File.ReadAllText(file.Path, Encoding.UTF8);
-            if (content.Length == 0)
-            {
-                return "";
-            }
+            content = $"<doc>{content}</doc>";
             var doc = new XmlDocument();
             doc.LoadXml(content);
 
@@ -64,7 +61,7 @@ namespace Generator
             #endregion
 
             #region text
-            foreach (XmlNode node in root.SelectNodes("//text")!)
+            foreach (XmlNode node in root.SelectNodes("/doc")!)
             {
                 var div = doc.CreateElement("div");
                 foreach (XmlNode child in node.ChildNodes)
@@ -90,7 +87,7 @@ namespace Generator
                     }
                 }
                 div.SetAttribute("class", "text");
-                node.ReplaceSelf(div);
+                node.InnerXml = div.OuterXml;
             }
             #endregion
 
