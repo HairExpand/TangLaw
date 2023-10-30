@@ -14,38 +14,37 @@
 		<tr>
 			<td>傅</td>
 			<td>一人</td>
-			<td></td>
-			<td></td>
+			<td>从三品</td>
+			<td>掌傅相训导，而匡其过失</td>
 		</tr>
 		<tr>
 			<td>谘议参军事</td>
 			<td>一人</td>
-			<td></td>
-			<td></td>
+			<td>正五品上</td>
+			<td>掌訏谋左右，参议庶事</td>
 		</tr>
 		<tr>
 			<td>友</td>
 			<td>一人</td>
-			<td></td>
-			<td></td>
+			<td>从五品下</td>
+			<td>掌陪侍游居，规讽道义</td>
 		</tr>
 		<tr>
 			<td>文学</td>
 			<td>二人</td>
-			<td></td>
-			<td></td>
+			<td>从六品上</td>
+			<td>掌雠校典籍，侍从文章</td>
 		</tr>
 		<tr>
 			<td>东閤祭酒</td>
 			<td>一人</td>
-			<td></td>
-			<td></td>
+			<td>从七品上</td>
+			<td rowspan="2">掌接对贤良，导引宾客</td>
 		</tr>
 		<tr>
 			<td>西閤祭酒</td>
 			<td>一人</td>
-			<td></td>
-			<td></td>
+			<td>从七品上</td>
 		</tr>
 	</tbody>
 </table>
@@ -88,7 +87,7 @@
 
 晋初，位从公以上并置东閤、西閤祭酒，宋、齐、梁、陈、后魏、北齐皆相因。亲王府及嗣王、上柱国府各有东、西閤祭酒，从七品上，皇朝因之。
 
-祭酒掌接对贤良；导引宾客。
+祭酒掌接对贤良，导引宾客。
 
 <h2>长史</h2>
 　　　　
@@ -106,38 +105,31 @@
 		<tr>
 			<td>长史</td>
 			<td>一人</td>
-			<td></td>
-			<td></td>
+			<td>从四品上</td>
+			<td rowspan="2">掌统理府寮，纪纲职务</td>
 		</tr>
 		<tr>
 			<td>司马</td>
 			<td>一人</td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>司马</td>
-			<td>一人</td>
-			<td></td>
-			<td></td>
+			<td>从四品下</td>
 		</tr>
 		<tr>
 			<td>掾</td>
 			<td>一人</td>
-			<td></td>
-			<td></td>
+			<td>正六品上</td>
+			<td>掌通判功曹、户曹、仓曹事</td>
 		</tr>
 		<tr>
 			<td>属</td>
 			<td>一人</td>
-			<td></td>
-			<td></td>
+			<td>正六品上</td>
+			<td>掌通判兵曹、骑曹、法曹、士曹事</td>
 		</tr>
 		<tr>
 			<td>主簿</td>
 			<td>一人</td>
-			<td></td>
-			<td></td>
+			<td>从六品上</td>
+			<td>掌覆省王教</td>
 		</tr>
 	</tbody>
 </table>
@@ -214,8 +206,8 @@
 		<tr>
 			<td>记室参军事</td>
 			<td>二人</td>
-			<td></td>
-			<td></td>
+			<td>从六品上</td>
+			<td>掌表、启、书、疏</td>
 		</tr>
 	</tbody>
 </table>
@@ -260,8 +252,14 @@
 		<tr>
 			<td>录事参军事</td>
 			<td>一人</td>
-			<td></td>
-			<td></td>
+			<td>从六品上</td>
+			<td>掌付事勾稽，省署钞目</td>
+		</tr>
+		<tr>
+			<td>录事</td>
+			<td>一人</td>
+			<td>从九品下</td>
+			<td>掌受事发辰，兼勾稽失</td>
 		</tr>
 	</tbody>
 </table>
@@ -275,10 +273,6 @@
 		</tr>
 	</thead>
 	<tbody>
-		<tr>
-			<td>录事</td>
-			<td>一人</td>
-		</tr>
 		<tr>
 			<td>府</td>
 			<td>一人</td>
@@ -320,8 +314,8 @@
 		<tr>
 			<td>功曹参军事</td>
 			<td>一人</td>
-			<td></td>
-			<td></td>
+			<td>正七品上</td>
+			<td>掌文官簿书、考课、陈设、仪式等事</td>
 		</tr>
 	</tbody>
 </table>
@@ -370,8 +364,8 @@
 		<tr>
 			<td>仓曹参军事</td>
 			<td>一人</td>
-			<td></td>
-			<td></td>
+			<td>正七品上</td>
+			<td>掌廪禄请给，财物市易等事</td>
 		</tr>
 	</tbody>
 </table>
@@ -420,8 +414,8 @@
 		<tr>
 			<td>户曹参军事</td>
 			<td>一人</td>
-			<td></td>
-			<td></td>
+			<td>正七品上</td>
+			<td>掌封户、田宅、僮仆、弋猎等事</td>
 		</tr>
 	</tbody>
 </table>
@@ -470,8 +464,8 @@
 		<tr>
 			<td>兵曹参军事</td>
 			<td>一人</td>
-			<td></td>
-			<td></td>
+			<td>正七品上</td>
+			<td>掌武官簿书、考课、仪卫、假使等事</td>
 		</tr>
 	</tbody>
 </table>
@@ -520,8 +514,8 @@
 		<tr>
 			<td>骑曹参军事</td>
 			<td>一人</td>
-			<td></td>
-			<td></td>
+			<td>正七品上</td>
+			<td>掌厩牧、骑乘、文物、器械等事</td>
 		</tr>
 	</tbody>
 </table>
@@ -570,8 +564,8 @@
 		<tr>
 			<td>法曹参军事</td>
 			<td>一人</td>
-			<td></td>
-			<td></td>
+			<td>正七品上</td>
+			<td>掌推按欺隐，决罚刑狱等事</td>
 		</tr>
 	</tbody>
 </table>
@@ -620,8 +614,8 @@
 		<tr>
 			<td>士曹参军事</td>
 			<td>一人</td>
-			<td></td>
-			<td></td>
+			<td>正七品上</td>
+			<td>掌公廨舍宇，缮造工徒等事</td>
 		</tr>
 	</tbody>
 </table>
@@ -670,20 +664,20 @@
 		<tr>
 			<td>参军事</td>
 			<td>二人</td>
-			<td></td>
-			<td></td>
+			<td>正八品下</td>
+			<td>掌出使及杂检校事</td>
 		</tr>
 		<tr>
 			<td>行参军</td>
 			<td>四人</td>
-			<td></td>
-			<td></td>
+			<td>从八品上</td>
+			<td>-</td>
 		</tr>
 		<tr>
 			<td>典签</td>
 			<td>二人</td>
-			<td></td>
-			<td></td>
+			<td>从八品下</td>
+			<td>掌宣传教令事</td>
 		</tr>
 	</tbody>
 </table>
