@@ -25,6 +25,22 @@
 	</tbody>
 </table>
 
+<table>
+	<caption>流外官</caption>
+	<thead>
+		<tr>
+			<th>官职</th>
+			<th>编制</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>监门直长</td>
+			<td>七十八人</td>
+		</tr>
+	</tbody>
+</table>
+
 <h5>率</h5>
 
 率各一人，正四品上。
@@ -77,10 +93,6 @@
 	</thead>
 	<tbody>
 		<tr>
-			<td>监门直长</td>
-			<td>七十八人</td>
-		</tr>
-		<tr>
 			<td>亭长</td>
 			<td>二人</td>
 		</tr>
@@ -99,7 +111,7 @@
 
 长史掌判诸门禁卫之贰。
 
-<h2>录事参军事</h2>
+<h2>录事</h2>
 
 <table>
 	<caption>职事官</caption>
@@ -147,7 +159,7 @@
 
 录事参军事掌印，兼勾稽失。
 
-<h2>兵曹参军事</h2>
+<h2>兵曹</h2>
 
 <table>
 	<caption>职事官</caption>
@@ -197,7 +209,7 @@
 
 其诸司籍傍判于监门者，检其官爵、姓名、年貌，监其器物，检其名数；月终，诸门之籍傍归于府者，则会其出入之数。
 
-<h2>胄曹参军事</h2>
+<h2>胄曹</h2>
 
 <table>
 	<caption>职事官</caption>

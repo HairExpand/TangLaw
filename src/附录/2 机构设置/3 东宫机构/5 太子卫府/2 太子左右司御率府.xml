@@ -22,6 +22,30 @@
 			<td>二人</td>
 			<td>从四品上</td>
 		</tr>
+		<tr>
+			<td>司阶</td>
+			<td>一人</td>
+			<td>从六品上</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td>中候</td>
+			<td>二人</td>
+			<td>从七品下</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td>司戈</td>
+			<td>二人</td>
+			<td>从八品下</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td>执戟</td>
+			<td>三人</td>
+			<td>从九品下</td>
+			<td>-</td>
+		</tr>
 	</tbody>
 </table>
 
@@ -62,30 +86,6 @@
 			<td>正七品上</td>
 			<td>掌判诸曹及郊城等三府之贰</td>
 		</tr>
-		<tr>
-			<td>司阶</td>
-			<td>一人</td>
-			<td>从六品上</td>
-			<td>-</td>
-		</tr>
-		<tr>
-			<td>中候</td>
-			<td>二人</td>
-			<td>从七品下</td>
-			<td>-</td>
-		</tr>
-		<tr>
-			<td>司戈</td>
-			<td>二人</td>
-			<td>从八品下</td>
-			<td>-</td>
-		</tr>
-		<tr>
-			<td>执戟</td>
-			<td>三人</td>
-			<td>从九品下</td>
-			<td>-</td>
-		</tr>
 	</tbody>
 </table>
 
@@ -117,7 +117,7 @@
 
 长史掌判诸曹及郊城等三府之贰。
 
-<h2>录事参军事</h2>
+<h2>录事</h2>
 
 <table>
 	<caption>职事官</caption>
@@ -159,7 +159,7 @@
 	</tbody>
 </table>
 
-<h2>仓曹参军事</h2>
+<h2>仓曹</h2>
 
 <table>
 	<caption>职事官</caption>
@@ -201,7 +201,7 @@
 	</tbody>
 </table>
 
-<h2>兵曹参军事</h2>
+<h2>兵曹</h2>
 
 <table>
 	<caption>职事官</caption>
@@ -243,7 +243,7 @@
 	</tbody>
 </table>
 
-<h2>胄曹参军事</h2>
+<h2>胄曹</h2>
 
 <table>
 	<caption>职事官</caption>
