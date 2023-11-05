@@ -14,13 +14,13 @@
 		<tr>
 			<td>令</td>
 			<td>一人</td>
-			<td>正七品上</td>
+			<td>从七品下</td>
 			<td rowspan="2">掌导扬风化，抚字黎氓，敦四人之业，崇五土之利，养鳏寡，恤孤穷，审察冤屈，躬亲狱讼，务知百姓之疾苦</td>
 		</tr>
 		<tr>
 			<td>丞</td>
 			<td>一人</td>
-			<td>从八品下</td>
+			<td>正九品下</td>
 		</tr>
 		<tr>　
 			<td>主簿</td>
@@ -48,7 +48,7 @@
 	<tbody>
 		<tr>
 			<td>典狱</td>
-			<td>八人</td>
+			<td>六人</td>
 		</tr>
 		<tr>
 			<td>问事</td>
@@ -78,11 +78,6 @@
 			<td>一人</td>
 			<td>录事掌受事发辰，句检稽失</td>
 		</tr>
-		<tr>
-			<td>史</td>
-			<td>二人</td>
-			<td>-</td>
-		</tr>
 	</tbody>
 </table>
 
@@ -99,11 +94,11 @@
 	<tbody>
 		<tr>
 			<td>司户佐</td>
-			<td>三人</td>
+			<td>二人</td>
 		</tr>
 		<tr>
 			<td>史</td>
-			<td>五人</td>
+			<td>四人</td>
 		</tr>
 		<tr>
 			<td>帐史</td>
@@ -111,8 +106,6 @@
 		</tr>
 	</tbody>
 </table>
-
-四千户增置佐一人、史二人、帐史一人。
 
 <h2>司法</h2>
 
@@ -127,16 +120,14 @@
 	<tbody>
 		<tr>
 			<td>司法佐</td>
-			<td>三人</td>
+			<td>二人</td>
 		</tr>
 		<tr>
 			<td>史</td>
-			<td>六人</td>
+			<td>四人</td>
 		</tr>
 	</tbody>
 </table>
-
-四千户增置佐一人、史二人。
 
 <h2>市令</h2>
 
@@ -154,14 +145,6 @@
 			<td>一人</td>
 		</tr>
 		<tr>
-			<td>仓督</td>
-			<td>一人</td>
-		</tr>
-		<tr>
-			<td>佐</td>
-			<td>一人</td>
-		</tr>
-		<tr>
 			<td>史</td>
 			<td>一人</td>
 		</tr>
@@ -171,6 +154,8 @@
 		</tr>
 	</tbody>
 </table>
+
+无市则阙。
 
 <h2>博士</h2>
 
@@ -208,7 +193,7 @@
 	<tbody>
 		<tr>
 			<td>学生</td>
-			<td>二十五人</td>
+			<td>二十人</td>
 		</tr>
 	</tbody>
 </table>
