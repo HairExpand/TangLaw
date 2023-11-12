@@ -26,11 +26,11 @@ namespace Generator
             {
                 if (File.Exists(file.Path))
                 {
-                    var name = $"{file.Name}.html";
+                    var title = file.GetTitle(main, pad);
+                    var name = $"{title}.html";
                     var output = Path.Combine(Global.OutputRoot, name);
                     var content = GenerateContent(pad, file);
 
-                    var title = file.GetTitle(main, pad);
                     rootTempalte.Write(output, title, contentTemplate.Format(title, content));
                     Global.ContentsMap.Add(file.Path, name);
                 }

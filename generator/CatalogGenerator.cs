@@ -46,7 +46,7 @@ namespace Generator
                         }
                     }
 
-                    var name = file.GetTitle(main,pad);
+                    var name = file.GetTitle(main, pad);
                     if (Directory.Exists(file.Path))
                     {
                         var self = Directory.GetFiles(file.Path).FirstOrDefault(f => Path.GetFileName(f).StartsWith("0 "));
