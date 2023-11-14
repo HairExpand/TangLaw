@@ -69,6 +69,18 @@ namespace Generator.Utils
                     s = "十" + s;
                 }
             }
+            value /= 10;
+            var _3 = value % 10;
+            if (_3 > 0)
+            {
+                if (_2 == 0) {
+                    s = Numbers[_3] + "百零" + s;
+                }
+                else
+                {
+                    s = Numbers[_3] + "百" + s;
+                }
+            }
             return s;
         }
 
