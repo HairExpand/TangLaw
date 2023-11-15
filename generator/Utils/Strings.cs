@@ -44,7 +44,7 @@ namespace Generator.Utils
 
         private static string Numbers = "零一二三四五六七八九十";
 
-        private static string GetNumberString(int value)
+        public static string GetNumberString(int value)
         {
             var s = "";
             var _1 = value % 10;

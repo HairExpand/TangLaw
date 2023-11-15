@@ -14,8 +14,38 @@ namespace Generator
 
         public static void CreateContents()
         {
+            BuildMap(0, Global.InputRoot1, true);
+            BuildMap(0, Global.InputRoot2, false);
             DeepCreateContent(0, Global.InputRoot1, true);
             DeepCreateContent(0, Global.InputRoot2, false);
+        }
+
+        private static void BuildMap(int pad, string directory, bool main)
+        {
+            foreach (var file in Files.GetEntries(directory))
+            {
+                if (File.Exists(file.Path))
+                {
+                    var title = file.GetTitle(main, pad);
+                    var name = $"{title}.html";
+                    Global.ContentsMap.Add(file.Path, name);
+                    if (main && file.Number != 0)
+                    {
+                        if (file.SubNumber > 0)
+                        {
+                            Global.LinkMap.Add($"{file.Number}.{file.SubNumber}", name);
+                        }
+                        else
+                        {
+                            Global.LinkMap.Add($"{file.Number}", name);
+                        }
+                    }
+                }
+                else
+                {
+                    BuildMap(pad + 1, file.Path, main);
+                }
+            }
         }
 
         private static void DeepCreateContent(int pad, string directory, bool main)
@@ -32,7 +62,6 @@ namespace Generator
                     var content = GenerateContent(pad, file);
 
                     rootTempalte.Write(output, title, contentTemplate.Format(title, content));
-                    Global.ContentsMap.Add(file.Path, name);
                 }
                 else
                 {
@@ -90,6 +119,29 @@ namespace Generator
             }
             #endregion
 
+            #region link
+            foreach (XmlElement link in root.SelectNodes("//link")!)
+            {
+                var a = doc.CreateElement("a");
+
+                var value = link.InnerXml;
+                if (value.Contains("."))
+                {
+                    var tokens = value.Split('.');
+                    var x1 = Strings.GetNumberString(int.Parse(tokens[0]));
+                    var x2 = Strings.GetNumberString(int.Parse(tokens[1]));
+                    a.InnerXml = $"第{x1}条之{x2}";
+                }
+                else
+                {
+                    var x = Strings.GetNumberString(int.Parse(value));
+                    a.InnerXml = $"第{x}条";
+                }
+                a.SetAttribute("href", Global.LinkMap[value]);
+                link.ReplaceSelf(a);
+            }
+            #endregion
+
             #region text
             foreach (XmlNode node in root.SelectNodes("/doc")!)
             {
@@ -102,7 +154,15 @@ namespace Generator
 
         private static void Perfect(XmlDocument doc, XmlNode node)
         {
+            const int None = 0;
+            const int Text = 1;
+            const int Inline = 2;
+            const int Block = 3;
+
             var div = doc.CreateElement("div");
+            XmlElement prev = null;
+            int state = None;
+
             foreach (XmlNode child in node.ChildNodes)
             {
                 if (child.NodeType == XmlNodeType.Text)
@@ -110,19 +170,42 @@ namespace Generator
                     var tokens = child.InnerText.Split("\r\n\r\n");
                     foreach (var token in tokens)
                     {
-                        if (token.Length == 0)
+                        if (token.Trim().Length == 0)
                         {
                             continue;
                         }
-                        var p = doc.CreateElement("p");
-                        p.InnerText = token.Trim();
-                        div.AppendChild(p);
+
+                        XmlElement p;
+                        if (state == Inline)
+                        {
+                            p = prev;
+                        }
+                        else
+                        {
+                            p = doc.CreateElement("p");
+                            div.AppendChild(p);
+                        }
+                        p.InnerXml += token.Trim();
+                        prev = p;
+                        state = Text;
                     }
 
+                }
+                else if (child is XmlElement element && element.Name == "a")
+                {
+                    if (prev == null)
+                    {
+                        prev = doc.CreateElement("p");
+                        div.AppendChild(prev);
+                    }
+                    prev.AppendChild(child.Clone());
+                    state = Inline;
                 }
                 else
                 {
                     div.AppendChild(child.Clone());
+                    prev = null;
+                    state = Block;
                 }
             }
             div.SetAttribute("class", "text");
