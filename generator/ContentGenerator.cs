@@ -114,8 +114,6 @@ namespace Generator
                 divValue.InnerXml = value;
                 div.AppendChild(divName);
                 div.AppendChild(divValue);
-
-                Perfect(doc, divValue);
             }
             #endregion
 
@@ -203,7 +201,11 @@ namespace Generator
                 }
                 else
                 {
-                    div.AppendChild(child.Clone());
+                    var block = div.AppendChild(child.Clone());
+                    if (block.Name == "div")
+                    {
+                        Perfect(doc, block);
+                    }
                     prev = null;
                     state = Block;
                 }
