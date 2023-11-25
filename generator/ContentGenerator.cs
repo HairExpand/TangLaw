@@ -54,18 +54,25 @@ namespace Generator
             var contentTemplate = new Template("content.html");
             foreach (var file in Files.GetEntries(directory))
             {
-                if (File.Exists(file.Path))
+                try
                 {
-                    var title = file.GetTitle(main, pad);
-                    var name = $"{title}.html";
-                    var output = Path.Combine(Global.OutputRoot, name);
-                    var content = GenerateContent(pad, file);
+                    if (File.Exists(file.Path))
+                    {
+                        var title = file.GetTitle(main, pad);
+                        var name = $"{title}.html";
+                        var output = Path.Combine(Global.OutputRoot, name);
+                        var content = GenerateContent(pad, file);
 
-                    rootTempalte.Write(output, title, contentTemplate.Format(title, content));
+                        rootTempalte.Write(output, title, contentTemplate.Format(title, content));
+                    }
+                    else
+                    {
+                        DeepCreateContent(pad + 1, file.Path, main);
+                    }
                 }
-                else
+                catch (GenerateException e)
                 {
-                    DeepCreateContent(pad+1, file.Path, main);
+                    Console.Error.WriteLine($"{file.Path} {e.Message}");
                 }
             }
         }
@@ -102,7 +109,12 @@ namespace Generator
             foreach (XmlElement node in root.SelectNodes("//word")!)
             {
                 var name = node.GetAttribute("value");
-                var value = File.ReadAllText(Path.Combine(Global.InputWordRoot, $"{name}.txt"));
+                var filename = Path.Combine(Global.InputWordRoot, $"{name}.txt");
+                if (!File.Exists(filename))
+                {
+                    throw new GenerateException($"释义不存在：{name}");
+                }
+                var value = File.ReadAllText(filename);
                 var div = doc.CreateElement("div");
                 div.SetAttribute("class", "word");
                 var divName = doc.CreateElement("div");

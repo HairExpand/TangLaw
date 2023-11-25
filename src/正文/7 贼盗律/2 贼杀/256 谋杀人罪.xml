@@ -15,7 +15,7 @@
 （2）实行致伤的，绞。
 （3）实行致死的，斩。
 
-<word value="致伤"/>
+<word value="伤"/>
 
 <h2>共同犯罪</h2>
 
@@ -43,12 +43,16 @@
 	<tr>
 		<td>预谋</td>
 		<td>徒三年</td>
-		<td colspan="3">徒二年半</td>
+		<td>徒二年半</td>
+		<td>徒二年半</td>
+		<td>徒二年</td>
 	</tr>
 	<tr>
 		<td>未致伤</td>
 		<td>徒三年</td>
-		<td colspan="3">徒二年半</td>
+		<td>徒二年半</td>
+		<td>徒二年半</td>
+		<td>徒二年</td>
 	</tr>
 	<tr>
 		<td>致伤</td>
