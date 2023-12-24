@@ -22,7 +22,7 @@ h2:before{
 
 h3{
 	counter-increment: h3 1;
-	counter-reset: h5 0;
+	counter-reset: h4 0 h5 0;
 }
 
 h3:before{
@@ -35,8 +35,9 @@ h3, h4{
 
 h4:before{
 	font-weight: bold;
-	content: "•";
+	content: "（" counter(h4) "）";
 	counter-reset: h5 0;
+	counter-increment: h4 1;
 }
 
 h5{
