@@ -14,9 +14,20 @@ namespace Generator
             Directory.Delete(Global.OutputRoot, true);
             Directory.CreateDirectory(Global.OutputRoot);
 
+            GenerateWord();
             ContentGenerator.CreateContents();
             CatalogGenerator.CreateCatalog();
         }
 
+        private static void GenerateWord()
+        {
+            foreach (var dir in Directory.GetDirectories(Global.InputWordRoot))
+            {
+                foreach (var word in Directory.GetFiles(dir))
+                {
+                    Global.WordMap[Path.GetFileNameWithoutExtension(word)] = word;
+                }
+            }
+        }
     }
 }

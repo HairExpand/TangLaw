@@ -109,8 +109,8 @@ namespace Generator
             foreach (XmlElement node in root.SelectNodes("//word")!)
             {
                 var name = node.GetAttribute("value");
-                var filename = Path.Combine(Global.InputWordRoot, $"{name}.txt");
-                if (!File.Exists(filename))
+                var filename = Global.WordMap.GetValueOrDefault(name);
+                if (filename == null)
                 {
                     throw new GenerateException($"释义不存在：{name}");
                 }

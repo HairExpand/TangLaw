@@ -29,6 +29,11 @@
 嫡长孙：嫡长子之嫡长子。
 庶孙：非嫡孙之孙，包括嫡子之庶子和庶子之子。
 
+嫡母：庶子称父之正妻。
+慈母：庶子之母亡，父命他妾养己者。
+乳母：乳哺己者。
+庶母慈己者：生母亡后虽无父命而作为养母的庶母。
+
 从：同祖父不同父。
 再从（从祖）：同曾祖父不同祖父。
 三从（族）：同高祖父不同曾祖父。
@@ -37,7 +42,7 @@
 
 <h5>尊压</h5>
 
-尊压，是指男子在世的，对女子的服制应压低。例如，子对母服齐衰三年，但是母亡时父在世的，子对母的服制降为齐衰杖期。
+尊压，是指尊长在世的，对本人的服制应压低。例如，子对母服齐衰三年，但是母亡时父在世的，子对母的服制降为齐衰杖期。
 
 在刑法中的亲等关系不受尊压的影响。因此，无论父是否去世，母都是齐衰亲，只是父在世的，子对母的丧制适用齐衰杖期。
 
@@ -136,34 +141,34 @@
 	<tr>
 		<td>子</td>
 		<td></td>
-		<td></td>
+		<td>斩衰</td>
 		<td>齐衰不杖期<br/>斩衰（父为长子）<br/>齐衰三年（母为长子）<br/>大功（父、母、被出之母为出赘子）</td>
 	</tr>
 	<tr>
 		<td>女</td>
 		<td></td>
-		<td></td>
+		<td>期亲</td>
 		<td>齐衰不杖期（在室女）<br/>大功（出嫁女）</td>
 	</tr>
 	<tr>
 		<td rowspan="4" class="vertical-mode">孙辈</td>
 	</tr>
 	<tr>
-		<td>孙（孙子）</td>
+		<td>孙</td>
 		<td>子之子</td>
-		<td></td>
+		<td>大功</td>
 		<td>大功<br/>齐衰不杖期（祖父母为承重孙）</td>
 	</tr>
 	<tr>
 		<td>孙女</td>
 		<td>子之女</td>
-		<td></td>
-		<td>小功（祖父母为出嫁孙女）</td>
+		<td>大功</td>
+		<td>大功（在室）<br/>小功（出嫁）</td>
 	</tr>
 	<tr>
 		<td>外孙</td>
 		<td>女之子</td>
-		<td></td>
+		<td>缌麻</td>
 		<td>缌麻</td>
 	</tr>
 	<tr>
@@ -172,7 +177,7 @@
 	<tr>
 		<td>曾孙</td>
 		<td>孙之子</td>
-		<td></td>
+		<td>大功</td>
 		<td>缌麻</td>
 	</tr>
 	<tr>
@@ -181,7 +186,7 @@
 	<tr>
 		<td>玄孙</td>
 		<td>曾孙之子</td>
-		<td></td>
+		<td>大功</td>
 		<td>缌麻</td>
 	</tr>
 </tbody>
@@ -196,6 +201,7 @@
 	<th>亲属</th>
 	<th>释义</th>
 	<th>亲等</th>
+	<th>服制</th>
 </tr>
 </thead>
 <tbody>
@@ -205,46 +211,55 @@
 	<tr>
 		<td>伯父</td>
 		<td>父之兄</td>
+		<td>期亲</td>
 		<td>齐衰不杖期</td>
 	</tr>
 	<tr>
 		<td>叔父</td>
 		<td>父之弟</td>
+		<td>期亲</td>
 		<td>齐衰不杖期</td>
 	</tr>
 	<tr>
 		<td>姑</td>
 		<td>父之姊妹</td>
-		<td>齐衰不杖期<br/>大功（为出嫁姑）</td>
+		<td>期亲</td>
+		<td>齐衰不杖期（在室）<br/>大功（出嫁）</td>
 	</tr>
 	<tr>
 		<td>从祖父</td>
 		<td>从祖祖父母之子（堂伯叔）</td>
+		<td>小功</td>
 		<td>小功</td>
 	</tr>
 	<tr>
 		<td>从祖母</td>
 		<td>从祖父之妻（堂伯叔母）</td>
 		<td>小功</td>
+		<td>小功</td>
 	</tr>
 	<tr>
 		<td>从祖姑</td>
 		<td>从祖祖父母之女</td>
+		<td>小功</td>
 		<td>小功（在室）<br/>缌麻（出嫁）</td>
 	</tr>
 	<tr>
 		<td>族父</td>
 		<td>祖父之兄弟之子</td>
 		<td>缌麻</td>
+		<td>缌麻</td>
 	</tr>
 	<tr>
 		<td>族母</td>
 		<td>族父之妻</td>
 		<td>缌麻</td>
+		<td>缌麻</td>
 	</tr>
 	<tr>
 		<td>族姑</td>
 		<td>父之再从姊妹</td>
+		<td>缌麻</td>
 		<td>缌麻</td>
 	</tr>
 	<tr>
@@ -254,25 +269,30 @@
 		<td>从祖祖父</td>
 		<td>祖父之兄弟</td>
 		<td>小功</td>
+		<td>小功</td>
 	</tr>
 	<tr>
 		<td>从祖祖母</td>
 		<td>从祖祖父之妻</td>
+		<td>小功</td>
 		<td>小功</td>
 	</tr>
 	<tr>
 		<td>族祖父</td>
 		<td>曾祖父之兄弟之子</td>
 		<td>缌麻</td>
+		<td>缌麻</td>
 	</tr>
 	<tr>
 		<td>族祖母</td>
 		<td>族祖父之妻</td>
 		<td>缌麻</td>
+		<td>缌麻</td>
 	</tr>
 	<tr>
 		<td>族祖姑</td>
 		<td>祖父之同堂姊妹</td>
+		<td>缌麻</td>
 		<td>缌麻（在室）</td>
 	</tr>
 	<tr>
@@ -282,16 +302,19 @@
 		<td>族曾祖父</td>
 		<td>高祖父之兄弟之子</td>
 		<td>缌麻</td>
+		<td>缌麻</td>
 	</tr>
 	<tr>
 		<td>族曾祖母</td>
 		<td>族曾祖父之妻</td>
 		<td>缌麻</td>
+		<td>缌麻</td>
 	</tr>
 	<tr>
 		<td>族曾祖姑</td>
 		<td>曾祖父之姊妹</td>
-		<td>缌麻（为在室族曾祖姑）</td>
+		<td>缌麻</td>
+		<td>缌麻（在室）</td>
 	</tr>
 	<tr>
 		<td rowspan="6" class="vertical-mode">同辈</td>
@@ -300,25 +323,30 @@
 		<td>从兄弟</td>
 		<td>伯叔父母之子</td>
 		<td>大功</td>
+		<td>大功</td>
 	</tr>
 	<tr>
 		<td>从姊妹</td>
 		<td>伯叔父母之女</td>
-		<td>小功（为出嫁从姊妹）</td>
+		<td>大功</td>
+		<td>大功（在室）<br/>小功（出嫁）</td>
 	</tr>
 	<tr>
 		<td>从祖兄弟</td>
 		<td>曾祖父母之其他祖父之孙</td>
+		<td>小功</td>
 		<td>小功</td>
 	</tr>
 	<tr>
 		<td>族兄弟</td>
 		<td>同高祖父不同曾祖父之同辈兄弟</td>
 		<td>缌麻</td>
+		<td>缌麻</td>
 	</tr>
 	<tr>
 		<td>姑之子</td>
 		<td></td>
+		<td>缌麻</td>
 		<td>缌麻</td>
 	</tr>
 </tbody>
@@ -333,6 +361,7 @@
 	<th>亲属</th>
 	<th>释义</th>
 	<th>亲等</th>
+	<th>服制</th>
 </tr>
 </thead>
 <tbody>
@@ -343,10 +372,12 @@
 		<td>舅</td>
 		<td>母之兄弟</td>
 		<td>小功</td>
+		<td>小功</td>
 	</tr>
 	<tr>
 		<td>从母（姨母）</td>
 		<td>母之姊妹</td>
+		<td>小功</td>
 		<td>小功</td>
 	</tr>
 	<tr>
@@ -356,10 +387,12 @@
 		<td>外祖父</td>
 		<td>母之父</td>
 		<td>小功</td>
+		<td>小功</td>
 	</tr>
 	<tr>
 		<td>外祖母</td>
 		<td>母之母</td>
+		<td>小功</td>
 		<td>小功</td>
 	</tr>
 	<tr>
@@ -369,20 +402,24 @@
 		<td>从母兄弟</td>
 		<td>从母之子</td>
 		<td>缌麻</td>
+		<td>缌麻</td>
 	</tr>
 	<tr>
 		<td>从母姊妹</td>
 		<td>从母之女</td>
+		<td>缌麻</td>
 		<td>缌麻</td>
 	</tr>
 	<tr>
 		<td>舅之子</td>
 		<td></td>
 		<td>缌麻</td>
+		<td>缌麻</td>
 	</tr>
 	<tr>
 		<td>同母异父之兄弟姊妹</td>
 		<td></td>
+		<td>小功</td>
 		<td>小功</td>
 	</tr>
 </tbody>
@@ -397,6 +434,7 @@
 	<th>亲属</th>
 	<th>释义</th>
 	<th>亲等</th>
+	<th>服制</th>
 </tr>
 </thead>
 <tbody>
@@ -406,48 +444,62 @@
 	<tr>
 		<td>兄</td>
 		<td>比自己年长的父母之子</td>
+		<td>期亲</td>
 		<td>齐衰不杖期</td>
 	</tr>
 	<tr>
 		<td>弟</td>
 		<td>比自己年幼的父母之子</td>
+		<td>期亲</td>
 		<td>齐衰不杖期</td>
 	</tr>
 	<tr>
 		<td>姊</td>
 		<td>比自己年长的父母之女</td>
-		<td>齐衰不杖期<br/>大功（弟为出嫁姊）</td>
+		<td>期亲</td>
+		<td>齐衰不杖期（在室）<br/>大功（出嫁）</td>
 	</tr>
 	<tr>
 		<td>妹</td>
 		<td>比自己年幼的父母之女</td>
-		<td>齐衰不杖期<br/>大功（兄为出嫁妹）</td>
+		<td>期亲</td>
+		<td>齐衰不杖期（在室）<br/>大功（出嫁）</td>
 	</tr>
 	<tr>
 		<td rowspan="4" class="vertical-mode">子辈</td>
 	</tr>
 	<tr>
-		<td>侄（侄子）</td>
+		<td>侄</td>
 		<td>兄弟之子</td>
+		<td>期亲</td>
 		<td>齐衰不杖期</td>
 	</tr>
 	<tr>
 		<td>侄女</td>
 		<td>兄弟之女</td>
-		<td>大功（为出嫁侄女）</td>
+		<td>期亲</td>
+		<td>齐衰不杖期（在室）<br/>大功（出嫁）</td>
 	</tr>
 	<tr>
 		<td>甥</td>
 		<td>姊妹之子</td>
 		<td>缌麻</td>
+		<td>缌麻</td>
 	</tr>
 	<tr>
-		<td rowspan="2" class="vertical-mode">孙辈</td>
+		<td rowspan="3" class="vertical-mode">孙辈</td>
+	</tr>
+	<tr>
+		<td>兄弟之孙</td>
+		<td></td>
+		<td>小功</td>
+		<td>小功</td>
 	</tr>
 	<tr>
 		<td>兄弟之孙女</td>
 		<td></td>
-		<td>缌麻（出嫁）</td>
+		<td>小功</td>
+		<td>小功（在室）<br/>缌麻（出嫁）</td>
 	</tr>
 </tbody>
 </table>
@@ -461,6 +513,7 @@
 	<th>亲属</th>
 	<th>释义</th>
 	<th>亲等</th>
+	<th>服制</th>
 </tr>
 </thead>
 <tbody>
@@ -469,42 +522,50 @@
 	</tr>
 	<tr>
 		<td>夫</td>
-		<td>（妻之）嫁主</td>
+		<td></td>
+		<td>斩衰</td>
 		<td>斩衰</td>
 	</tr>
 	<tr>
 		<td>君</td>
-		<td>（妾之）采主</td>
+		<td></td>
+		<td>斩衰</td>
 		<td>斩衰</td>
 	</tr>
 	<tr>
 		<td>妻</td>
-		<td>（夫之）娶女</td>
+		<td></td>
+		<td>期亲</td>
 		<td>齐衰杖期</td>
 	</tr>
 	<tr>
 		<td>妾</td>
-		<td>（君之）纳女</td>
 		<td></td>
+		<td>无服</td>
+		<td>无服</td>
 	</tr>
 	<tr>
 		<td>君之妻</td>
 		<td></td>
+		<td>期亲</td>
 		<td>齐衰不杖期</td>
 	</tr>
 	<tr>
 		<td>嫂</td>
 		<td>兄之妻</td>
 		<td>小功</td>
+		<td>小功</td>
 	</tr>
 	<tr>
 		<td>叔</td>
 		<td>夫之弟</td>
 		<td>小功</td>
+		<td>小功</td>
 	</tr>
 	<tr>
 		<td>妯娌</td>
 		<td>夫之兄弟之妻</td>
+		<td>小功</td>
 		<td>小功</td>
 	</tr>
 	<tr>
@@ -514,40 +575,48 @@
 		<td>公（舅）</td>
 		<td>夫之父</td>
 		<td>斩衰</td>
+		<td>斩衰</td>
 	</tr>
 	<tr>
 		<td>婆（姑）</td>
 		<td>夫之母</td>
+		<td>齐衰</td>
 		<td>齐衰三年</td>
 	</tr>
 	<tr>
 		<td>伯母</td>
 		<td>伯父之妻</td>
+		<td>期亲</td>
 		<td>齐衰不杖期</td>
 	</tr>
 	<tr>
 		<td>叔母</td>
 		<td>叔父之妻</td>
+		<td>期亲</td>
 		<td>齐衰不杖期</td>
 	</tr>
 	<tr>
 		<td>夫君之伯叔父母</td>
 		<td></td>
 		<td>大功</td>
+		<td>大功</td>
 	</tr>
 	<tr>
 		<td>妻之父母</td>
 		<td></td>
+		<td>缌麻</td>
 		<td>缌麻</td>
 	</tr>
 	<tr>
 		<td>夫之舅</td>
 		<td></td>
 		<td>缌麻</td>
+		<td>缌麻</td>
 	</tr>
 	<tr>
 		<td>夫之从母</td>
 		<td></td>
+		<td>缌麻</td>
 		<td>缌麻</td>
 	</tr>
 	<tr>
@@ -557,25 +626,30 @@
 		<td>祖公</td>
 		<td>夫之祖父</td>
 		<td>大功</td>
+		<td>大功</td>
 	</tr>
 	<tr>
 		<td>祖婆</td>
 		<td>夫之祖母</td>
+		<td>大功</td>
 		<td>大功</td>
 	</tr>
 	<tr>
 		<td>夫之从祖祖父母</td>
 		<td></td>
 		<td>缌麻</td>
+		<td>缌麻</td>
 	</tr>
 	<tr>
 		<td>夫之从祖父母</td>
 		<td></td>
 		<td>缌麻</td>
+		<td>缌麻</td>
 	</tr>
 	<tr>
 		<td>夫之外祖父母</td>
 		<td></td>
+		<td>缌麻</td>
 		<td>缌麻</td>
 	</tr>
 	<tr>
@@ -584,6 +658,7 @@
 	<tr>
 		<td>夫之曾祖父母</td>
 		<td></td>
+		<td>大功</td>
 		<td>缌麻</td>
 	</tr>
 	<tr>
@@ -592,6 +667,7 @@
 	<tr>
 		<td>夫之高祖父母</td>
 		<td></td>
+		<td>大功</td>
 		<td>缌麻</td>
 	</tr>
 	<tr>
@@ -600,26 +676,31 @@
 	<tr>
 		<td>君之子</td>
 		<td></td>
-		<td>齐衰三年（妾为君之长子）<br/>齐衰不杖期（妾为君之妾子）</td>
+		<td>齐衰/期亲</td>
+		<td>齐衰三年（君之长子）<br/>齐衰不杖期（君之妾子）</td>
 	</tr>
 	<tr>
 		<td>叔侄</td>
 		<td>夫之侄</td>
+		<td>期亲</td>
 		<td>齐衰不杖期</td>
 	</tr>
 	<tr>
 		<td>媳</td>
 		<td>子之妻</td>
-		<td>大功<br/>齐衰不杖期（公婆为长媳）</td>
+		<td>大功/期亲</td>
+		<td>大功<br/>齐衰不杖期（长媳，长子之妻）</td>
 	</tr>
 	<tr>
 		<td>夫君之侄女</td>
 		<td></td>
-		<td>大功（妻妾为夫君之在室之女）</td>
+		<td>大功</td>
+		<td>大功（在室）<br/>小功（出嫁）</td>
 	</tr>
 	<tr>
 		<td>婿</td>
 		<td>女之夫</td>
+		<td>缌麻</td>
 		<td>缌麻</td>
 	</tr>
 	<tr>
@@ -628,12 +709,11 @@
 	<tr>
 		<td>孙媳</td>
 		<td>孙之妻</td>
+		<td>小功/缌麻</td>
 		<td>小功（嫡孙之妻）<br/>缌麻（庶孙之妻）</td>
 	</tr>
 </tbody>
 </table>
-
-长媳：长子之妻。
 
 <h3>拟亲</h3>
 
@@ -644,45 +724,71 @@
 	<th>亲属</th>
 	<th>释义</th>
 	<th>亲等</th>
+	<th>服制</th>
 </tr>
 </thead>
 <tbody>
 	<tr>
-		<td rowspan="8" class="vertical-mode">父辈</td>
+		<td rowspan="11" class="vertical-mode">父辈</td>
+	</tr>
+	<tr>
+		<td>养父</td>
+		<td>为人后者之后父</td>
+		<td>斩衰</td>
+		<td>同父</td>
+	</tr>
+	<tr>
+		<td>养母</td>
+		<td>为人后者之后母</td>
+		<td>齐衰</td>
+		<td>同母</td>
 	</tr>
 	<tr>
 		<td>继父</td>
 		<td>母之后夫君</td>
-		<td>齐衰不杖期（子为同居之继父）</td>
+		<td>期亲</td>
+		<td>齐衰不杖期（同居）</td>
 	</tr>
 	<tr>
 		<td>继母</td>
 		<td>父之后妻</td>
-		<td>齐衰三年</td>
+		<td>齐衰</td>
+		<td>同母<br/>无服（出降）</td>
 	</tr>
 	<tr>
 		<td>慈母</td>
-		<td>母亡父命他妾养己者</td>
-		<td>齐衰三年</td>
+		<td></td>
+		<td>齐衰</td>
+		<td>同母<br/>无服（出降）</td>
+	</tr>
+	<tr>
+		<td>嫡母</td>
+		<td></td>
+		<td>齐衰</td>
+		<td>同母<br/>无服（出降）</td>
 	</tr>
 	<tr>
 		<td>庶母</td>
 		<td>父之妾</td>
-		<td>缌麻<br/>小功（慈己者）</td>
+		<td>缌麻/小功</td>
+		<td>缌麻<br/>小功（慈己者）<br/>无服（出降）</td>
 	</tr>
 	<tr>
 		<td>乳母</td>
 		<td></td>
+		<td>缌麻</td>
 		<td>缌麻</td>
 	</tr>
 	<tr>
 		<td>嫡母之父母</td>
 		<td></td>
 		<td>小功</td>
+		<td>小功</td>
 	</tr>
 	<tr>
 		<td>嫡母之从母</td>
 		<td></td>
+		<td>小功</td>
 		<td>小功</td>
 	</tr>
 	<tr>
@@ -692,23 +798,18 @@
 		<td>嫡母之兄弟</td>
 		<td></td>
 		<td>小功</td>
+		<td>小功</td>
 	</tr>
 	<tr>
 		<td rowspan="2" class="vertical-mode">子辈</td>
 	</tr>
 	<tr>
-		<td>夫君之长子</td>
+		<td>继长子</td>
 		<td></td>
+		<td>齐衰</td>
 		<td>齐衰三年（继母为夫君之长子）</td>
 	</tr>
 </tbody>
 </table>
 
-嫡母：父之妻。
-乳母：乳哺己者。
-庶母慈己者：生母亡后虽无父命而作为养母的庶母。
-
-<h3>过继</h3>
-
-过继后，对后父母及其相关亲属视同生父母。
 

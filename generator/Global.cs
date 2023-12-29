@@ -17,6 +17,7 @@ namespace Generator
 
         public static readonly Dictionary<string, string> ContentsMap = new Dictionary<string, string>();
         public static readonly Dictionary<string, string> LinkMap = new Dictionary<string, string>();
+        public static readonly Dictionary<string, string> WordMap = new Dictionary<string, string>();
 
     }
 }
