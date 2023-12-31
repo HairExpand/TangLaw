@@ -490,16 +490,34 @@
 		<td rowspan="3" class="vertical-mode">孙辈</td>
 	</tr>
 	<tr>
+		<td>侄孙</td>
 		<td>兄弟之孙</td>
-		<td></td>
 		<td>小功</td>
 		<td>小功</td>
 	</tr>
 	<tr>
+		<td>侄孙女</td>
 		<td>兄弟之孙女</td>
-		<td></td>
 		<td>小功</td>
 		<td>小功（在室）<br/>缌麻（出嫁）</td>
+	</tr>
+	<tr>
+		<td rowspan="2" class="vertical-mode">曾孙辈</td>
+	</tr>
+	<tr>
+		<td>曾侄孙</td>
+		<td>兄弟之曾孙</td>
+		<td>缌麻</td>
+		<td>缌麻</td>
+	</tr>
+	<tr>
+		<td rowspan="2" class="vertical-mode">玄孙辈</td>
+	</tr>
+	<tr>
+		<td>玄侄孙</td>
+		<td>兄弟之玄孙</td>
+		<td>袒免</td>
+		<td>袒免</td>
 	</tr>
 </tbody>
 </table>
@@ -746,7 +764,7 @@
 	<tr>
 		<td>继父</td>
 		<td>母之后夫君</td>
-		<td>期亲</td>
+		<td>缌麻</td>
 		<td>齐衰不杖期（同居）</td>
 	</tr>
 	<tr>
